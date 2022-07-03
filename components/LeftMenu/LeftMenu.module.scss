@@ -1,0 +1,17 @@
+.menu {
+  width: 220px;
+  position: sticky;
+  left: 15px;
+  top: 15px;
+
+
+  .list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.root {
+  padding: 10px 15px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.logo {
+  cursor: pointer;
+
+  a {
+
+    font-size: 20px;
+
+  }
+}
+
+.searchBlock {
+  position: relative;
+
+  input {
+    width: 240px;
+    padding: 10px 10px 10px 40px;
+    background-color: rgba(#FF7519, .4);
+    border-radius: 8px;
+    color: black;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    transition: all .2s ease-in-out;
+
+    &:hover,
+    &:active,
+    &:focus {
+      border-color: #FF7519;
+      background-color: #fff;
+    }
+  }
+
+  svg {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 12px;
+
+    path {
+      transition: all .2s ease-in-out;
+    }
+  }
+}

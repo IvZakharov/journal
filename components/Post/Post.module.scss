@@ -1,0 +1,26 @@
+.root {
+  .title {
+    font-weight: 500 !important;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  .description {
+    margin-bottom: 10px;
+  }
+
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    flex-wrap: nowrap;
+  }
+}
